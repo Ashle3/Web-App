@@ -1,0 +1,77 @@
+main{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 900px;
+}
+
+header{
+    background-color: #a333df;
+    color: white;
+    font-family: 'Shadows Into Light', cursive;
+    padding: 10px;
+}
+
+h1{
+    font-size: 70px;
+}
+
+h2{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 50px;
+}
+
+h3{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 35px;
+}
+
+h1, h2, h3{
+    text-align: center;
+}
+
+section{
+    border: .5px solid lightblue;
+    padding: 10px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.picture{
+    width: 300px;
+    grid-column: 1/2;
+    align-items: center;
+}
+
+.info{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 30px;
+    grid-column: 3/4;
+}
+
+.name{
+    grid-column: 2/3;
+}
+
+.link{
+    font-size: 25px;
+    padding: 10px;
+}
+
+.option-type a{
+    text-decoration: none;
+    color: white;
+}
+
+.option{
+    font-family: 'Shadows Into Light', cursive;
+    background-color: #a333df;
+    padding: 2px;
+    margin-top: 15px;
+}
+
+.option:hover{
+    text-decoration: underline white;
+    background-color: blue;
+}
+

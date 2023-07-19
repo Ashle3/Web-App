@@ -1,0 +1,24 @@
+{% load static %}
+
+<link rel="stylesheet" type="text/css" href="{% static 'my_app/style.css' %}">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+
+<header>
+    <h1>Homes for Hounds</h1>
+</header>
+
+<main>
+<h2>Welcome to Homes for Hounds!</h2>
+<h3>What type of dog are you interested in today?</h3>
+<div class="option-box">
+    <div class="option">
+        <h1 class="option-type"><a href="http://127.0.0.1:8000/my_app/smallDogs">Small Dogs</a></h1>
+    </div>
+    <div class="option">
+        <h1 class="option-type"><a href="http://127.0.0.1:8000/my_app/largeDogs">Large Dogs</a></h1>
+    </div>
+</div>
+</main>

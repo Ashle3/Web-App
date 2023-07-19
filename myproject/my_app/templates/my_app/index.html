@@ -1,0 +1,32 @@
+{% load static %}
+
+<link rel="stylesheet" type="text/css" href="{% static 'my_app/style.css' %}">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+
+<header>
+    <h1>Homes for Hounds</h1>
+</header>
+
+<main>
+{% if smalldogList %}
+    <h2>View our Small Dogs</h2>
+    {% for dog in smalldogList %}
+        <section>
+        <img class="picture" src="{{ dog.img.url }}">
+        <h2 class="name">{{ dog.name }}</h2>
+        <div class="info">
+        <p>Breed: {{dog.breed}}</p>
+        <p>Gender: {{dog.gender}}</p>
+        <p>Age: {{dog.age}}</p>
+        </div>
+        </section>
+    {% endfor %}
+{% else %}
+    <p>No small dogs are available.</p>
+{% endif %}
+
+<a href="http://127.0.0.1:8000/my_app/"><p class="link">Return to Home</p></a>
+</main>
