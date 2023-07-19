@@ -1,4 +1,5 @@
 # Web-App
+
 # Overview
 
 {Important!  Do not say in this section that this is college assignment.  Talk about what you are trying to accomplish as a software engineer to further your learning.}
@@ -23,13 +24,12 @@
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
-* [Web Site Name](http://url.link.goes.here)
-* [Web Site Name](http://url.link.goes.here)
+* [Codemy.com on YouTube](https://www.youtube.com/watch?v=O5YkEFLXcRg)
+* [Official Django site](https://docs.djangoproject.com/en/3.0/contents/)
+* [tutorialspoint](https://www.tutorialspoint.com/django/index.htm)
 
 # Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
-* Item 1
-* Item 2
-* Item 3
+* I could make individual pages for each dog.
+* I could add more categories to sort the dogs by, besides just large or small.
+* I could always add some more dogs!
